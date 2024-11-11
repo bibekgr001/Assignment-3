@@ -1,0 +1,91 @@
+/* Custom font */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Pacifico', cursive;
+    background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.intro, .images, .nutrition {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.images img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.images img:hover {
+    transform: scale(1.1);
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.nutrition th, .nutrition td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.footer-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content label, .footer-content input, .footer-content textarea, .footer-content button {
+    margin: 5px 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    background-color: #ff9a9e;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fad0c4;
+}
